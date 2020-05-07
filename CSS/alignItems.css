@@ -1,0 +1,25 @@
+body {
+    background-color: #D89CF6;
+}
+.flex-container > *:hover {
+    background-color: rgb(16, 214, 16);
+}
+
+.flex-container {
+    height: 200px;
+}
+.start {
+    align-items: flex-start;
+}
+.end {
+    align-items: flex-end;
+}
+.center {
+    align-items: center;
+}
+.st {
+    align-items: stretch;
+}
+.bl {
+    align-items: baseline;
+}

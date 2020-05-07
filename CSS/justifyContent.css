@@ -1,0 +1,29 @@
+body {
+    background-color: #d63447;
+}
+.flex-container > *:hover {
+    background-color: rgb(211, 145, 23);
+}
+
+.flex-container {
+    flex-direction: row;
+    
+}
+.start {
+    justify-content: flex-start;
+}
+
+.end {
+   
+    justify-content: flex-end;
+}
+.center {
+    justify-content: center;
+}
+.between {
+    justify-content: space-between;
+}
+
+.spa {
+    justify-content: space-around;
+}

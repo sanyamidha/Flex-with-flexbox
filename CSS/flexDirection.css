@@ -1,0 +1,26 @@
+body {
+    background-color: #bc0ecc;
+}
+.flex-container > *:hover {
+    background-color: blueviolet;
+}
+
+.flex-container {
+    display: flex;
+}
+
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+.column-reverse {
+    flex-direction: column-reverse
+}

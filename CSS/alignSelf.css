@@ -1,0 +1,28 @@
+body {
+    background-color: #fe6845;
+}
+.flex-container > *:hover {
+    background-color: rgb(235, 231, 17);
+}
+
+.flex-container {
+    flex-direction: row;
+    height: 240px;
+    align-items: flex-start;
+}
+
+.sample1 div:nth-child(2) {
+    align-self: flex-start;
+}
+
+.sample2 div:nth-child(2) {
+    align-self: flex-end;
+}
+
+.sample3 div:nth-child(2) {
+    align-self: center;
+}
+
+.sample4 div:nth-child(2) {
+    align-self: stretch;
+}
